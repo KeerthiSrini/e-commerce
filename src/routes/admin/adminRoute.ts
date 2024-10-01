@@ -289,7 +289,7 @@ export const getAdminById = async (req: Request, res: Response) => {
  * @swagger
  * components:
  *   schemas:
- *     Admin:
+ *     UpdateAdmin:
  *       type: object
  *       required:
  *         - firstName
@@ -349,7 +349,7 @@ export const getAdminById = async (req: Request, res: Response) => {
  *         content:
  *           application/json:
  *             schema:
- *               $ref: '#/components/schemas/Admin'
+ *               $ref: '#/components/schemas/UpdateAdmin'
  *       500:
  *         description: Error in updating admin 
  */
